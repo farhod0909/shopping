@@ -24,4 +24,11 @@ public class BaseEntity {
     @LastModifiedDate
     private Date updatedDate;
     private Boolean deleted = false;
+
+
+    @CreatedBy
+    private String createdBy;
+
+    @LastModifiedBy
+    private String updatedBy;
 }
